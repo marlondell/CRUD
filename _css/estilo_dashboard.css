@@ -1,0 +1,61 @@
+/* CSS Complementar para CRUD formatando alguns detalhes. CSS Base é do Framework Bootstrap */
+body { 
+    padding: 0;
+}
+
+div#login {
+    margin: 150px auto;
+    padding: 10px 0 0 0;
+    width: 30%;
+    text-align: center;
+}
+
+#ul_botoes_menu {
+    margin-left: 23%;
+}
+
+#botoes_perfil{
+    margin-left: 12%;
+    padding-left: 6%;
+}
+
+#distancia-topo {
+    margin-top: 60px;
+}
+
+.btn-cadastro {
+    width: 80%;
+    height: 80px;
+    margin: 40px auto;
+}
+
+.btn-cadastro ul {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.btn-cadastro ul li{
+    display: inline-block;
+    width: 29%;
+    margin: 0 10px;
+}
+
+.btn-cadastro ul li a{
+    display: inline-block;
+    background: rgba(0,0,0, .06);
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-cadastro ul li a:hover{
+    
+    background: rgba(0,0,0, .15);
+    
+}
