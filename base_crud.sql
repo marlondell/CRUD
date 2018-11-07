@@ -1,8 +1,8 @@
-drop database if exists mapeamento1;
+﻿drop database if exists mapeamento;
 
-create database mapeamento1;
+create database mapeamento;
 
-use mapeamento1;
+use mapeamento;
 
 create table equipamento(
 			codigo INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
